@@ -1,2 +1,3 @@
 # react-typescript-project
-react+typescript+webpack
+
+用react + typescript + webpack 搭的一个项目demo
