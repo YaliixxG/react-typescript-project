@@ -1,0 +1,29 @@
+@import "./theme.less";
+
+// &代表上一层选择器
+
+@base-width: 50px;
+@base-height: 24px;
+@base-border-radius: 5px;
+@color: #fff;
+@base-text-align: center;
+
+.primary {
+  width: @base-width;
+  height: @base-height;
+  border-radius: @base-border-radius;
+  color: @color;
+  text-align: @base-text-align;
+  background: @default-10;
+  border: 1px solid @default-10;
+}
+
+.light {
+  width: @base-width;
+  height: @base-height;
+  border-radius: @base-border-radius;
+  color: @color;
+  text-align: @base-text-align;
+  background: @default-3;
+  border: 1px solid @default-3;
+}
